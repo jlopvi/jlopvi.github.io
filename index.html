@@ -1,0 +1,238 @@
+<!Doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mi Portafolio</title>
+<!--		<link rel="stylesheet" href="css/reset.css">-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<!-- Esta es la seccion del header-->
+		<header class="header">
+			<div class="header-wrapper">
+				<div class="header-logo">
+					<img src="img/logo.png" alt="logo-portafolio" height="60"/>
+				</div>
+				<nav class="header-menu">
+					<ul class="header-menu-wrapper">
+						<li class="header-menu-item">
+							<a href="#aboutme" class="header-menu-link">Sobre mi</a>
+						</li>
+						<li class="header-menu-item">
+							<a href="#skills" class="header-menu-link">Habilidades</a>
+						</li>
+						<li class="header-menu-item">
+							<a href="#works" class="header-menu-link">Portafolio</a>
+						</li>
+						<li class="header-menu-item">
+							<a href="#contact" class="header-menu-link">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- 
+			Esta es la seccion para la portatada
+			El fondo sera agregado en CSS
+		-->
+		<section class="cover">
+			<div class="cover-wrapper">
+				<div class="cover-photo-container">
+					<img src="https://pbs.twimg.com/profile_images/877739179769118721/9rrsjlf__400x400.jpg" alt="Jesús López" height="200" class="cover-photo"/>
+				</div>
+				<div class="cover-text">
+					<h2 class="cover-title">Jesús Alberto López Villatoro</h2>
+					<h1 class="cover-sub-title">UX UI Diseñador grafico Desarrollador web</h1>
+				</div>
+			</div>
+		</section>
+		<!--Esta es la seccion para la informacion sobre mi-->
+		<section id="aboutme" class="aboutme">
+			<header>
+				<h1 class="title-underline">
+					<span>Sobre Mi</span>
+				</h1>
+			</header>
+			<div class="cover-description">
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel elit luctus, posuere nisi eu, aliquet augue. Praesent turpis sapien, ultricies in nisi <span>egestas</span>, viverra ornare ipsum. Sed quis ligula in libero porta faucibus in eget turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sit amet felis nibh. Donec tristique eleifend dolor nec vulputate. Nulla at ligula arcu. Donec vulputate ipsum felis, nec ullamcorper nulla pulvinar nec. Morbi id quam mauris. Etiam sit amet porttitor lacus, vel egestas nibh. Suspendisse euismod quam sed pulvinar porttitor. Nulla vulputate egestas sollicitudin. Nullam sagittis hendrerit dolor vel ultrices. In fermentum sodales dolor a eleifend. In sollicitudin, nisi non auctor malesuada, elit elit interdum elit, vitae scelerisque ipsum velit ac nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+				</p>
+			
+				<div class="text-center">
+					<a href="mailto:jesus@jesuslopvi.com" class="btn-blue">Contactame</a>
+				</div>
+			</div>
+		</section>
+		<!--Esta es la seccion de Habilidades-->
+		<section id="skills" class="skills">
+			<header>
+				<h1 class="title-underline">
+					<span>Habilidades</span>
+				</h1>
+			</header>
+			<ul class="skills-wrapper">
+				<li class="skills-item">
+					<div class="skills-text">
+						<span class="skills-name">
+							HTML
+						</span>
+						<span class="skills-score">
+							85%
+						</span>
+					</div>
+					<div class="skills-bar">
+						<div class="skills-bar-fulling" style="width: 85%;">
+						</div>
+					</div>
+				</li>
+				<li class="skills-item">
+					<div class="skills-text">
+						<span class="skills-name">
+							CSS
+						</span>
+						<span class="skills-score">
+							70%
+						</span>
+					</div>
+					<div class="skills-bar">
+						<div class="skills-bar-fulling" style="width: 70%;">
+						</div>
+					</div>
+				</li>
+				<li class="skills-item">
+					<div class="skills-text">
+						<span class="skills-name">
+							Javascript
+						</span>
+						<span class="skills-score">
+							65%
+						</span>
+					</div>
+					<div class="skills-bar">
+						<div class="skills-bar-fulling" style="width: 65%;">
+						</div>
+					</div>
+				</li>
+				<li class="skills-item">
+					<div class="skills-text">
+						<span class="skills-name">
+							Illustrator
+						</span>
+						<span class="skills-score">
+							90%
+						</span>
+					</div>
+					<div class="skills-bar">
+						<div class="skills-bar-fulling" style="width: 90%;">
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+		</section>
+		<!-- esta es la seccion para mis trabajos realizados -->
+		<section id="works" class="works">
+			<header>
+				<h1 class="title-underline">
+					<span>Portafolio</span>
+				</h1>
+			</header>
+			<div class="works-wrapper">
+				<article class="works-item">
+					<div class="works-item-img-container">
+						<img src="img/work.png" alt="Trabajo desarrollo web 1" class="works-item-img"/>
+					</div>
+					<div class="works-item-description">
+						<header>
+							<h2 class="work-item-title">Desarrollo web 1</h2>
+						</header>
+						<p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
+						<div class="text-center">
+							<a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+						</div>
+					</div>
+				</article>
+				<article class="works-item">
+					<div class="works-item-img-container">
+						<img src="img/work.png" alt="Trabajo desarrollo web 1" class="works-item-img"/>
+					</div>
+					<div class="works-item-description">
+						<header>
+							<h2 class="work-item-title">Desarrollo web 2</h2>
+						</header>
+						<p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
+						<div class="text-center">
+							<a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+						</div>
+					</div>
+				</article>
+				<article class="works-item">
+					<div class="works-item-img-container">
+						<img src="img/work.png" alt="Trabajo desarrollo web 1" class="works-item-img"/>
+					</div>
+					<div class="works-item-description">
+						<header>
+							<h2 class="work-item-title">Desarrollo web 3</h2>
+						</header>
+						<p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
+						<div class="text-center">
+							<a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!--Esta es la seccion de contacto-->
+		<section id="contact" class="contact">
+			<header>
+				<h1 class="title-underline">
+					<span>Contactame</span>
+				</h1>
+			</header>
+			<form action="/messages.php" method="post" class="contact-form">
+				<div class="contact-row">
+					<div class="contact-column left">
+						<div>
+							<label for="useremail">Correo</label>
+						</div>
+						<div>
+							<input id="useremail" name="useremail" type="email" class="contac-input-text" required/>
+						</div>
+					</div>
+					<div class="contact-column right">
+						<div>
+							<label for="username">Nombre</label>
+						</div>
+						<div>
+							<input id="username" name="username" type="text" class="contac-input-text" required/>
+						</div>
+					</div>
+					
+				</div>
+				<div class="contact-row">
+					<div class="contact-column --width100">
+					<div>
+						<label for="usermessage">Mensaje</label>
+					</div>
+					<textarea id="usermessage" name="usermessage" rows="3" required></textarea>
+					</div>
+				</div>
+				<div class="text-center">
+					<input class="btn-blue" type="submit" value="Enviar"/>
+				</div>
+			</form>
+		</section>
+		<!--Esta es la seccion del footer-->
+		<footer class="footer">
+			<div class="footer-wrapper">
+				<p class="footer-text">
+					Hecho con <span class='icon'>&#x2764;</span> por <a href="https://twitter.com/jlopvi" target="_blank" class="link">@jlopvi</a>
+				</p>
+				<p>
+					© www.jesuslopvi.com
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
